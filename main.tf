@@ -21,7 +21,6 @@ module "github_iam_user_rotate" {
   lambda_subnet_ids = null
   lambda_filename = "handler.zip"
   lambda_security_group_ids = null
-  ignore_changes = true
   lambda_environment_variables = {
     iam_username = aws_iam_user.github_deployment.name
     github_organization = var.github_organization

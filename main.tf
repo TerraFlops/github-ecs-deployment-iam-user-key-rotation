@@ -9,10 +9,9 @@ data "aws_caller_identity" "default" {}
 data "aws_region" "default" {}
 
 module "github_iam_user_rotate" {
-  source = "git::https://github.com/TerraFlops/aws-lambda-python.git?ref=v2.10"
-  lambda_name = "github-iam-user-key-rotate-${local.github_repository}"
+  source = "git::https://github.com/TerraFlops/aws-lambda-python.git?ref=v3.19"
+  lambda_name = "${local.github_repository}-github-iam-user-key-rotate"
   lambda_description = "Lambda function to rotate GitHub IAM user access key/secret"
-  lambda_path = "${path.module}/src"
   lambda_handler = "handler.handler"
   lambda_python_version = "3.8"
   lambda_iam_role_arn = aws_iam_role.github_iam_user_rotate.arn
@@ -20,6 +19,7 @@ module "github_iam_user_rotate" {
   lambda_timeout = 300
   lambda_cloudwatch_encryption_enabled = true
   lambda_subnet_ids = null
+  lambda_filename = "handler.zip"
   lambda_security_group_ids = null
   ignore_changes = true
   lambda_environment_variables = {

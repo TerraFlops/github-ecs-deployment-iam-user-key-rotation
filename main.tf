@@ -19,7 +19,7 @@ module "github_iam_user_rotate" {
   lambda_timeout = 300
   lambda_cloudwatch_encryption_enabled = true
   lambda_subnet_ids = null
-  lambda_filename = "handler.zip"
+  lambda_filename = "${path.module}/handler.zip"
   lambda_security_group_ids = null
   lambda_environment_variables = {
     iam_username = aws_iam_user.github_deployment.name

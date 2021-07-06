@@ -1,13 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b2fa2c68-e05f-4fcc-8b25-13860644f36e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/main.tf" afterDir="false" />
-    </list>
+    <list default="true" id="b2fa2c68-e05f-4fcc-8b25-13860644f36e" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -73,7 +67,7 @@
       <workItem from="1623950612500" duration="451000" />
       <workItem from="1623972242055" duration="726000" />
       <workItem from="1624960692154" duration="278000" />
-      <workItem from="1625534606581" duration="3686000" />
+      <workItem from="1625534606581" duration="4047000" />
     </task>
     <servers />
   </component>

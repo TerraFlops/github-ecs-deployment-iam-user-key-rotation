@@ -4,7 +4,6 @@ locals {
   iam_username = "GitHubDeployment{local.github_repository_snake}"
 }
 
-# Grab the current account ID and region
 data "aws_caller_identity" "default" {}
 data "aws_region" "default" {}
 
@@ -39,8 +38,8 @@ resource "aws_iam_group" "github_deployment" {
 }
 
 resource "aws_iam_policy" "github_deployment" {
-  name = local.iam_username
-  description = "GitHub Actions deployment policy"
+  name = "GitHubActionsEcsDeployment"
+  description = "GitHub Actions ECS task deployment policy"
   policy = data.aws_iam_policy_document.github_deployment.json
 }
 

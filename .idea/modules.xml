@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/../aws-ecs-task/.idea/aws-ecs-task.iml" filepath="$PROJECT_DIR$/../aws-ecs-task/.idea/aws-ecs-task.iml" />
       <module fileurl="file://$PROJECT_DIR$/../github-cloudfront-deployment-iam-user-key-rotation/.idea/github-cloudfront-deployment-iam-user-key-rotation.iml" filepath="$PROJECT_DIR$/../github-cloudfront-deployment-iam-user-key-rotation/.idea/github-cloudfront-deployment-iam-user-key-rotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" filepath="$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" />
       <module fileurl="file://$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/.idea/github-lambda-deployment-iam-user-key-rotation.iml" filepath="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/.idea/github-lambda-deployment-iam-user-key-rotation.iml" />

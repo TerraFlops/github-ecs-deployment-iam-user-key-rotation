@@ -5,7 +5,8 @@
       <change beforePath="$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/github-ecs-deployment-iam-user-key-rotation.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/main.tf" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/main.tf" beforeDir="false" afterPath="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation/main.tf" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,7 +14,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../github-lambda-deployment-iam-user-key-rotation" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1u5LfngcOZCcvCeDDTJSItxTOzt" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -72,7 +73,7 @@
       <workItem from="1623950612500" duration="451000" />
       <workItem from="1623972242055" duration="726000" />
       <workItem from="1624960692154" duration="278000" />
-      <workItem from="1625534606581" duration="3358000" />
+      <workItem from="1625534606581" duration="3686000" />
     </task>
     <servers />
   </component>

@@ -6,5 +6,6 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module" module-name="github-lambda-deployment-iam-user-key-rotation" />
     <orderEntry type="module" module-name="github-cloudfront-deployment-iam-user-key-rotation" />
+    <orderEntry type="module" module-name="aws-ecs-task" />
   </component>
 </module>

@@ -2,6 +2,7 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/../aws-ecs-task" vcs="Git" />
     <mapping directory="$PROJECT_DIR$/../github-cloudfront-deployment-iam-user-key-rotation" vcs="Git" />
   </component>
 </project>
